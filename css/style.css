@@ -129,8 +129,14 @@ h4 {
 
 /* Footer */
 footer {
-  height: 80px;
-  background-color: purple;
-  margin-top: 15px;
+  padding: 20px;
+}
+footer p {
+  color: #000;
+  text-align: center;
+}
+footer span {
+  color: red;
+  font-size: 30px;
 }
 /* /Footer */
