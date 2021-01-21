@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .page-container {
   width: 80%;
   margin: auto;
