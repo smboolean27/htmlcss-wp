@@ -47,6 +47,12 @@ h4 {
 }
 
 .overlay {
+  position: relative;
+}
+
+.overlay::before {
+  content: '';
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
@@ -80,7 +86,6 @@ h4 {
 
 /* Main */
 .hero {
-  position: relative;
   height: 600px;
   margin: 30px 0;
   border-radius: 20px;
@@ -120,7 +125,6 @@ h4 {
 }
 
 .col-img {
-  position: relative;
   height: 200px;
   border-radius: 10px;
   overflow: hidden;
