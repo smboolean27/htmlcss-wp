@@ -21,9 +21,25 @@ body {
 }
 
 /* Header */
-header {
-  height: 150px;
-  background-color: pink;
+.logo img {
+  height: 70px;
+  padding-right: 20px;
+  border-right: 1px solid #929292;
+}
+
+.main-nav {
+  margin-top: 30px;
+}
+.main-nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 15px;
+}
+.main-nav li a {
+  text-transform: uppercase;
+  color: #858585;
+  text-decoration: none;
+  font-size: 18px;
 }
 /* /Header */
 
